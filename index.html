@@ -1,0 +1,137 @@
+<html>
+
+<head>
+  <meta http-equiv=“Content-Type” content=“text/html; charset=iso-8859-1”>
+  <meta name="Jailton da Cruz Mocitaiba Filho, 200024655, bes017,  WEB" content="TED Restaurante">
+  <script src="script.js"></script>
+  <link href="style.css" rel="stylesheet">
+
+  <title>Restaurante</title>
+</head>
+<header>
+  <h1>Menu do Restaurante</h1>
+</header>
+
+<body>
+
+  <nav>
+    <h2>Entradas</h2>
+
+    <div class="escolhas">
+
+      <div class="escolha">
+        <img src="imagens/batata-frita-topo.jpg" alt="Batata Frita">
+
+        <p>Batata Frita - R$ 16.00</p>
+        <input type="checkbox" id="escolha1" class="checkbox">
+      </div>
+
+      <div class="escolha">
+        <img src="imagens/Bolinhos-Bacalhau.jpg" alt="Bolinhos de Bacalhau">
+        <br>
+        <p>Bolinhos de Bacalhau - R$ 12.00</p>
+        <input type="checkbox" id="escolha1" class="checkbox">
+
+      </div>
+
+      <div class="escolha">
+        <img src="imagens/mini-pastel.jpg" alt="Mini Pasteis">
+        <br>
+        <p>Mini Pasteis - R$ 8.00</p>
+        <input type="checkbox" id="escolha1" class="checkbox">
+
+      </div>
+
+  </nav>
+
+  <br>
+
+  <nav>
+    <h2>Pratos Principais</h2>
+
+    <div class="escolhas">
+
+      <div class="escolha">
+        <img src="imagens/moqueca-de-camarao.png" alt="Moqueca de Camarão">
+        <br>
+        <p>Moqueca de Camarão - R$ 165.00</p>
+        <input type="checkbox" id="escolha2" class="checkbox">
+      </div>
+      <br>
+
+      <div class="escolha">
+        <img src="imagens/Pizza-de-Frango-com-Catupiry.jpg" alt="Pizza de Frango com Catupiry"> <br>
+        <p>Pizza de Frango com Catupiry - R$ 70.00</p>
+        <input type="checkbox" id="escolha2" class="checkbox">
+      </div>
+      <br>
+
+      <div class="escolha">
+        <img src="imagens/Filé-mignon.png" alt="Filé Mignon">
+        <p>Filé Mignon - R$ 120.00</p>
+        <input type="checkbox" id="escolha2" class="checkbox">
+      </div>
+      <br>
+
+      <div class="escolha">
+        <img src="imagens/File-de-peixe-grelhado.jpg" alt="Filé de Peixe">
+        <p>Filé de Peixe - R$ 72.00</p>
+        <input type="checkbox" id="escolha2" class="checkbox">
+      </div>
+      <br>
+
+      <div class="escolha">
+        <img src="imagens/picanha-grelhada-do-marcos-bassi.jpg" alt="Picanha Grelhada">
+        <p>Picanha Grelhada - R$ 85.00</p>
+        <input type="checkbox" id="escolha2" class="checkbox">
+      </div>
+
+    </div>
+  </nav>
+
+  <br>
+
+  <nav>
+
+    <h2>Sobremesas</h2>
+
+    <div class="escolhas">
+
+      <div class="escolha">
+        <img src="imagens/Mousse-de-Chocolate.jpg" alt="Mousse de Chocolate">
+        <p>Mousse de Chocolate - R$ 8.00</p>
+        <input type="checkbox" id="escolha3" class="checkbox">
+      </div>
+      <br>
+
+      <div class="escolha">
+        <img src="imagens/Pudim-de-biscoito-maizena.jpg" alt="Pudim">
+        <p>Pudim - R$ 12.00</p>
+        <input type="checkbox" id="escolha3" class="checkbox">
+      </div>
+      <br>
+
+      <div class="escolha">
+        <img src="imagens/Petit_gâteau.jpg" alt="Petit Gâteau">
+        <p>Petit Gâteau - R$ 23.00</p>
+        <input type="checkbox" id="escolha3" class="checkbox">
+      </div>
+    </div>
+  </nav>
+
+  <br></br>
+
+
+  <div id="botaoContainer">
+
+    <button onclick="mostrarItensSelecionados()">Mostrar Itens Selecionados</button>
+  </div>
+
+  <br></br>
+  <div id="itensSelecionados">
+    <h2>Itens Selecionados:</h2>
+    <br></br>
+
+    <ul id="listaItensSelecionados">
+    </ul>
+</body>
